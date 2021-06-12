@@ -31,6 +31,10 @@ export default {
     '@nuxtjs/eslint-module',
   ],
 
+  router: {
+    base: '/next-test/'
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxt/content', '@nuxtjs/axios', '@nuxtjs/auth'],
 
