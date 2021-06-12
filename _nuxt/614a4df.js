@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{286:function(t,n,e){"use strict";e.r(n);var l={middleware:"auth"},o=e(49),component=Object(o.a)(l,(function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("div",[e("h1",[t._v("About")]),t._v(" "),e("nuxt-link",{attrs:{to:"/"}},[t._v("Bank to Index")])],1)}),[],!1,null,null,null);n.default=component.exports}}]);
