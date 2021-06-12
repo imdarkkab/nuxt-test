@@ -31,7 +31,7 @@ export default {
   ],
 
   router: {
-    base: ''
+    base: '/nuxt-test/'
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
