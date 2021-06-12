@@ -1,5 +1,7 @@
 export default {
 
+  serverMiddleware: ['~/api/auth.js'],
+
   target: 'server',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -38,7 +40,7 @@ export default {
   modules: ['@nuxt/content', '@nuxtjs/axios', '@nuxtjs/auth'],
 
   axios: {
-    baseURL: 'http://localhost:12345/api'
+    baseURL: '/api'
   },
 
   auth: {
